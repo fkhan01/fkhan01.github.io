@@ -1,9 +1,9 @@
 h1{
-	color: light blue;
+	color: lightblue;
     font-family: Colonna MT;
     font-size:100px;
-    letter-spacing: 0.625em;
-    text-align: center;
+    letter-spacing:0.625em;
+    text-align:center;
 }
 #info{
   color: white;
