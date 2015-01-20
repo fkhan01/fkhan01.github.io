@@ -4,8 +4,8 @@ $(document).ready(function(){
    $("#portfolio").fadeOut();
     $("#projects").fadeOut();
      $("#aboutme").fadeOut();
-      $("#info").fadeIn(2000);
-      $("#back").show();
+      $("#info").show(2000);
+      $("#back").show(500);
        $("div").animate({height:'150px'},2000);
        
   });
