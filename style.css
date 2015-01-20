@@ -7,8 +7,10 @@ h1{
 }
 #info{
   color: white;
-  font-family: vijaya;
+  font-family: times new roman;
   font-size: 25px;
+  min-width: 90% ;
+  text-align: center;
 }
 #aboutme {
 height: 34px;
@@ -38,8 +40,4 @@ padding-bottom: 0px;
 background-color:;
 text-align: center;
   display:none;
-}
-#info {
-  min-width: 90% ;
-  text-align: center;
 }
