@@ -7,9 +7,9 @@ h1{
 }
 #info{
   color: white;
-  font-family: impact;
+  font-family: vijaya;
   font-size: 25px;
-  width: 500px;
+  min-width:100%;
   text-align: center;
 }
 #aboutme {
