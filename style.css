@@ -1,8 +1,41 @@
 h1{
-	color: lightblue;
+	color: light blue;
     font-family: Colonna MT;
     font-size:100px;
     letter-spacing: 0.625em;
     text-align: center;
-
+}
+#info{
+  color: white;
+  font-family: vijaya;
+  font-size: 25px;
+}
+#aboutme {
+height: 34px;
+padding-top: 1px;
+padding-bottom: 0px;
+background-color:;
+text-align: center;
+}
+#portfolio {
+height: 34px;
+padding-top: 1px;
+padding-bottom: 0px;
+background-color:;
+text-align: center;
+}
+#projects {
+height: 34px;
+padding-top: 1px;
+padding-bottom: 0px;
+background-color:;
+text-align: center;
+}
+#back{
+height: 34px;
+padding-top: 1px;
+padding-bottom: 0px;
+background-color:;
+text-align: center;
+  display:none;
 }
