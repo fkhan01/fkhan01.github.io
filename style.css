@@ -6,7 +6,7 @@
          url('axel-webfont.woff') format('woff'),
          url('axel-webfont.ttf') format('truetype'),
          url('axel-webfont.svg#axelregular') format('svg');
-    font-weight: normal;
+   /* //font-weight: normal;*/
     font-style: normal;
 
 }
