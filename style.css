@@ -11,6 +11,10 @@
 
 }
 
+body{
+    background : url(\pics\colors back.jpg);
+}
+
 h1{
 	color: lightblue;
     font-family: 'axelregular';
