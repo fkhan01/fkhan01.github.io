@@ -14,12 +14,12 @@
 
 @font-face {
     font-family: 'axelregular';
-    src: url('axel-webfont.eot');
-    src: url('axel-webfont.eot?#iefix') format('embedded-opentype'),
-         url('axel-webfont.woff2') format('woff2'),
-         url('axel-webfont.woff') format('woff'),
-         url('axel-webfont.ttf') format('truetype'),
-         url('axel-webfont.svg#axelregular') format('svg');
+    src: url('fonts/axel-webfont.eot');
+    src: url('fonts/axel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/axel-webfont.woff2') format('woff2'),
+         url('fonts/axel-webfont.woff') format('woff'),
+         url('fonts/axel-webfont.ttf') format('truetype'),
+         url('fonts/axel-webfont.svg#axelregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
