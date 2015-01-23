@@ -12,7 +12,7 @@
 }
 
 body{
-    background : url(../pics/colors back.jpg);
+    background-image: url(../pics/colors back.jpg);
 }
 
 h1{
