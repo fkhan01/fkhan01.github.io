@@ -44,13 +44,12 @@ h1{
   font-family: 'modekaregular';
 }
 #aboutme {
-height: 79px;
-width: 150px;
+height: 74px;
+width: 124px;
 padding-top: 1px;
 padding-bottom: 0px;
-background: url(images/aboutme.png);
-text-align: center;
-font-family: 'modekaregular';
+background-image: url(images/aboutme.png);
+backgorund-size: 120px 70px;
 }
 #portfolio {
 height: 34px;
