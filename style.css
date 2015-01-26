@@ -44,6 +44,9 @@ h1{
   font-family: 'modekaregular';
 }
 #aboutme {
+color: white;
+font-family: 'modekaregular';
+font-size: 13px;
 background: url(images/bluebutton.png) no-repeat center center;
 width: 155px;
 height: 62px;
@@ -51,8 +54,9 @@ height: 62px;
 -webkit-border-radius: 20px;
 }
 
-#aboutme:hover {
-border: 3px solid #ffffff;
+#aboutme:active {
+  background: url(images/bluebuttonon.png) no-repeat center center;
+
 }
 
 #portfolio {
