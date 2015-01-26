@@ -48,7 +48,7 @@ height: 79px;
 width: 150px;
 padding-top: 1px;
 padding-bottom: 0px;
-background-image: url(images/aboutme.png);
+background: url(images/aboutme.png);
 text-align: center;
 font-family: 'modekaregular';
 }
