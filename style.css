@@ -55,6 +55,10 @@ height: 62px;
 -webkit-border-radius: 16px;
 }
 
+#aboutme: hover{
+   -moz-outline-style: none; 
+}
+
 #aboutme:active {
   background: url(images/bluebuttonon.png) no-repeat center center;
 }
@@ -70,6 +74,7 @@ height: 62px;
 -moz-border-radius: 16px;
 -webkit-border-radius: 16px;
 }
+
 
 #portfolio:active {
   background: url(images/bluebuttonon.png) no-repeat center center;
