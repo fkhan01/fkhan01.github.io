@@ -45,16 +45,15 @@ h1{
 }
 #aboutme {
 background: url(images/aboutme.png) no-repeat center;
-width: 168px;
-height: 101px;
+width: 160px;
+height: 80px;
 -moz-border-radius: 30px;
 -webkit-border-radius: 30px;
-border: 3px solid #D1DBDD;
+border: 3px solid lightblue;
 }
 
 #aboutme :hover {
-
-border: 3px solid #fffff;
+border: 3px solid #ffffff;
 }
 #portfolio {
 height: 34px;
