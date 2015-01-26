@@ -44,20 +44,14 @@ h1{
   font-family: 'modekaregular';
 }
 #aboutme {
-background: url(images/aboutme.png) no-repeat center center;
+background: url(images/bluebutton.png) no-repeat center center;
 width: 155px;
 height: 62px;
 -moz-border-radius: 20px;
 -webkit-border-radius: 20px;
-border: 2px solid lightblue;
 }
 
-#aboutme :hover {
-background: url(images/aboutme.png) no-repeat center center;
-width: 155px;
-height: 62px;
--moz-border-radius: 20px;
--webkit-border-radius: 20px;
+#aboutme:hover {
 border: 3px solid #ffffff;
 }
 
