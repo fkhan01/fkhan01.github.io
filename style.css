@@ -32,7 +32,7 @@ h1{
 	color: lightblue;
     font-family: 'axelregular';
     font-size:100px;
-    letter-spacing: 0.625em;
+    letter-spacing: 0.325em;
     text-align: center;
 }
 #info{
@@ -98,5 +98,5 @@ height: 62px;
   display:none;
 }
 #projects:back {
-  background: url(images/backbutton.png) no-repeat center center;
+  background: url(images/backbuttonon.png) no-repeat center center;
 }
