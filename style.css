@@ -50,11 +50,12 @@ font-size: 24px;
 background: url(images/bluebutton.png) no-repeat center center;
 width: 151px;
 height: 62px;
+-moz-border-radius: 16px;
+-webkit-border-radius: 16px;
 }
 
 #aboutme:active {
   background: url(images/bluebuttonon.png) no-repeat center center;
-
 }
 
 #portfolio {
