@@ -59,23 +59,33 @@ height: 62px;
 }
 
 #portfolio {
-height: 34px;
-margin: 10px;
-padding-top: 1px;
-padding-bottom: 0px;
-background-color:;
-text-align: center;
+color: white;
 font-family: 'modekaregular';
+font-size: 24px;
+background: url(images/bluebutton.png) no-repeat center center;
+width: 151px;
+height: 62px;
+-moz-border-radius: 16px;
+-webkit-border-radius: 16px;
 }
+
+#portfolio:active {
+  background: url(images/bluebuttonon.png) no-repeat center center;
+
 #projects {
-height: 34px;
-margin: 10px;
-padding-top: 1px;
-padding-bottom: 0px;
-background-color:;
-text-align: center;
+color: white;
 font-family: 'modekaregular';
+font-size: 24px;
+background: url(images/bluebutton.png) no-repeat center center;
+width: 151px;
+height: 62px;
+-moz-border-radius: 16px;
+-webkit-border-radius: 16px;
 }
+
+#projects:active {
+  background: url(images/bluebuttonon.png) no-repeat center center;
+
 #back{
 height: 34px;
 padding-top: 1px;
