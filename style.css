@@ -45,11 +45,11 @@ h1{
 }
 #aboutme {
 background: url(images/aboutme.png) no-repeat center center;
-width: 160px;
-height: 80px;
+width: 155px;
+height: 65px;
 -moz-border-radius: 20px;
 -webkit-border-radius: 20px;
-border: 3px solid lightblue;
+border: 2px solid lightblue;
 }
 
 #aboutme :hover {
