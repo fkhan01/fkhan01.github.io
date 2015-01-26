@@ -46,10 +46,11 @@ h1{
 #aboutme {
 
 background: url(images/aboutme.png) no-repeat center;
-width: 175px;
-height: 110px;
+width: 170px;
+height: 205px;
 -moz-border-radius: 30px;
 -webkit-border-radius: 30px;
+border: 5px solid #D1DBDD;
 
 }
 #portfolio {
