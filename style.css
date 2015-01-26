@@ -51,13 +51,12 @@ margin: 24px;
 background: url(images/bluebutton.png) no-repeat center center;
 width: 151px;
 height: 62px;
-outline: none; 
 -moz-border-radius: 16px;
 -webkit-border-radius: 16px;
 }
 
 #aboutme: hover{
-   -moz-outline-style: none; 
+   border:none; 
 }
 
 #aboutme:active {
