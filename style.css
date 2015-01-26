@@ -49,6 +49,7 @@ background: url(images/aboutme.png) no-repeat center;
 width: 180px;
 height: 120px;
 -moz-border-radius: 50px;
+-webkit-border-radius: 50px;
 
 }
 #portfolio {
