@@ -49,22 +49,22 @@ width: 124px;
 padding-top: 1px;
 padding-bottom: 0px;
 background-image: url(images/aboutme.png);
-background-size: 120px 70px;
+background-size: 180px 90px;
 }
 #portfolio {
 height: 34px;
+margin: 10px;
 padding-top: 1px;
 padding-bottom: 0px;
-padding-left: 50px;
 background-color:;
 text-align: center;
 font-family: 'modekaregular';
 }
 #projects {
 height: 34px;
+margin: 10px;
 padding-top: 1px;
 padding-bottom: 0px;
-padding-left: 10px;
 background-color:;
 text-align: center;
 font-family: 'modekaregular';
