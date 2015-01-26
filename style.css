@@ -44,14 +44,17 @@ h1{
   font-family: 'modekaregular';
 }
 #aboutme {
-
 background: url(images/aboutme.png) no-repeat center;
-width: 170px;
-height: 205px;
+width: 168px;
+height: 101px;
 -moz-border-radius: 30px;
 -webkit-border-radius: 30px;
-border: 5px solid #D1DBDD;
+border: 3px solid #D1DBDD;
+}
 
+#aboutme :hover {
+
+border: 3px solid #fffff;
 }
 #portfolio {
 height: 34px;
