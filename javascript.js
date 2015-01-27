@@ -31,7 +31,7 @@ $(document).ready(function(){
    });
 
 
-/*
+
 var ul;
 var liItems; 
 var imageWidth;
@@ -101,5 +101,5 @@ function animate(opts){
 }
 window.onload = init;
  
-*/
+
   });
