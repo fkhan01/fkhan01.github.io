@@ -26,6 +26,7 @@ $(document).ready(function(){
      $("#projects").fadeOut();
       $("#aboutme").fadeOut();
        $(".container").fadeIn(2000);
+       $(".slider_wrapper").fadeIn(2000);
         $("#back").show(500);
         // $("div").animate({height:'150px'},2000);
    });
