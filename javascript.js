@@ -29,6 +29,8 @@ $(document).ready(function(){
          $(".container").animate({height:'150px'},2000);
    });
 
+
+/*
 var ul;
 var liItems; 
 var imageWidth;
@@ -97,4 +99,6 @@ function animate(opts){
     }, opts.dalay || 17);
 }
 window.onload = init;
+ 
+*/
   });
