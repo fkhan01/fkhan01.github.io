@@ -30,7 +30,6 @@ $(document).ready(function(){
         // $("div").animate({height:'150px'},2000);
    });
 
-  });
 
 //1. set ul width 
 //2. image when click prev/next button
@@ -137,3 +136,4 @@ function generatePager(imageNumber){
 }
 window.onload = init;
 
+});
