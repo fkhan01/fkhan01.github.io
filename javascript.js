@@ -43,11 +43,11 @@ var currentImage = 0;
 
 
 function init(){
-  ul = document.getElementById("image_slider");
+  ul = document.getElementById('image_slider');
   liItems = ul.children;
   imageNumber = liItems.length;
   imageWidth = liItems[0].children[0].clientWidth;
-  ul.style.width = parseInt(imageWidth * imageNumber) + "px";
+  ul.style.width = parseInt(imageWidth * imageNumber) + 'px';
   prev = document.getElementById("prev");
   next = document.getElementById("next");
   generatePager(imageNumber);
