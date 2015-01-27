@@ -24,9 +24,9 @@ $(document).ready(function(){
     $("#portfolio").fadeOut();
      $("#projects").fadeOut();
       $("#aboutme").fadeOut();
-       //$("#info").fadeIn(2000);
+       $(".container").fadeIn(2000);
         $("#back").show(500);
-         $(".container").animate({height:'150px'},2000);
+         $(".div").animate({height:'150px'},2000);
    });
 
 
