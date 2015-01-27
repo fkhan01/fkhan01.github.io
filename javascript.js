@@ -17,6 +17,7 @@ $(document).ready(function(){
        $("div").animate({height:'3px'});
         $("#back").hide();
          $("#info").hide();
+          $(".container").hide();
   });
 
   $("#portfolio").click(function(){
