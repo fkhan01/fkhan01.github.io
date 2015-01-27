@@ -173,6 +173,7 @@ height: 62px;
   height:50px;
   margin:auto;
   margin-top:10px;
+  display: inline;
 }
 #pager li{
   padding: 0px;
@@ -186,7 +187,7 @@ height: 62px;
   float:left;
   border-radius: 3px;
   cursor: pointer;
-  display: inline;
+
 }
 #pager li:hover{
   opacity:0.9;
