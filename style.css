@@ -112,8 +112,8 @@ height: 62px;
 
 /* */
 .container{
-    width:800px;
-    height:400px;
+    width:300px;
+    height:200px;
     padding:20px;
     border:1px solid gray;
     -webkit-box-sizing:border-box;
