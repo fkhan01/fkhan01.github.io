@@ -1,25 +1,28 @@
 $(document).ready(function(){
- $("#aboutme").click(function(){
+
+
+  $("#aboutme").click(function(){
   $("h1").fadeOut();
    $("#portfolio").fadeOut();
     $("#projects").fadeOut();
      $("#aboutme").fadeOut();
       $("#info").fadeIn(2000);
        $("#back").show(500);
-        $("div").animate({height:'150px'},2000);
+        $("#base").animate({height:'150px'},2000);
        
   });
-  $("#back").click(function(){
-   $("h1").fadeIn(2000);
-    $("#portfolio").fadeIn();
-     $("#projects").fadeIn();
-      $("#aboutme").fadeIn();
-       $("div").animate({height:'3px'});
-        $("#back").hide();
-         $("#info").hide();
-          $(".container").hide();
-  });
 
+   $("#back").click(function(){
+    $("h1").fadeIn(2000);
+     $("#portfolio").fadeIn();
+      $("#projects").fadeIn();
+       $("#aboutme").fadeIn();
+        $(".container").hide();
+         $("#base").animate({height:'3px'});
+          $("#back").hide();
+           $("#info").hide();
+   });
+  
   $("#portfolio").click(function(){
    $("h1").fadeOut();
     $("#portfolio").fadeOut();
@@ -27,7 +30,7 @@ $(document).ready(function(){
       $("#aboutme").fadeOut();
        $(".container").show(2000);
         $("#back").show(500);
-        // $("div").animate({height:'150px'},2000);
+         //$("div").animate({height:'1px'});
    });
 
 
@@ -60,9 +63,9 @@ function init(){
 }
 
 function animate(opts){
-  var start = new Date;
+  var start = new Date();
   var id = setInterval(function(){
-    var timePassed = new Date - start;
+    var timePassed = new Date() - start;
     var progress = timePassed / opts.duration;
     if (progress > 1){
       progress = 1;
@@ -125,9 +128,9 @@ function generatePager(imageNumber){
     li.onclick = function(i){
       return function(){
         slideTo(i);
-      }
+      };
     }(i);
-  } 
+  }
   var computedStyle = document.defaultView.getComputedStyle(li, null);
   //border width 1px; offsetWidth = 22
   var liWidth = parseInt(li.offsetWidth);
@@ -135,5 +138,7 @@ function generatePager(imageNumber){
   pagerDiv.style.width = parseInt((liWidth + liMargin * 2) * imageNumber) + 'px';
 }
 window.onload = init;
+
+  
 
 });
