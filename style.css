@@ -138,7 +138,7 @@ height: 62px;
   height: auto;
   list-style: none;
   overflow: hidden;
- // float: left;
+  float: left;
   /*Chrom default padding for ul is 40px */
   padding:0px;
   margin:0px;
@@ -146,6 +146,7 @@ height: 62px;
 #image_slider li{
   position: relative;
   float: left;
+  display: inline-block;
 }
 .nvgt{
   position:absolute;
