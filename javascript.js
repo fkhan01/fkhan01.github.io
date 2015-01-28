@@ -30,7 +30,9 @@ $(document).ready(function(){
       $("#aboutme").fadeOut();
        $(".container").show(2000);
         $("#back").show(500);
-         //$("div").animate({height:'1px'});
+         $(".slider_wrapper").show();
+          $("#image_slider").show();
+               //$("div").animate({height:'1px'});
    });
 
 
