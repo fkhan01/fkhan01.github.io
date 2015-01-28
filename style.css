@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'modekaregular';
     src: url('fonts/modeka-webfont.eot');
@@ -38,7 +39,7 @@ h1{
 #info{
   color: white;
   font-family: vijaya;
-  font-size: 35px;
+  font-size: 25px;
   min-width:100%;
   text-align: center;
   font-family: 'modekaregular';
@@ -112,8 +113,8 @@ height: 62px;
 
 /* */
 .container{
-    width:1000px;
-    height:700px;
+    width:800px;
+    height:400px;
     padding:20px;
     border:1px lightblue;
     -webkit-box-sizing:border-box;
@@ -130,7 +131,7 @@ height: 62px;
 .slider_wrapper{
     overflow: hidden;
     position:relative;
-    height:600px;
+    height:280px;
     top:auto;
 }
 #image_slider{
@@ -171,24 +172,22 @@ height: 62px;
   padding:0px;
   position:relative;
   height:50px;
-  margin:0px auto;
+  margin:auto;
   margin-top:10px;
-  display: inline;
 }
 #pager li{
-  padding:5px;
-  margin:2px;
+  padding: 0px;
+  margin:auto;
   width:20px;
   height:20px;
   border:1px solid white;
   color:white;
   list-style: none;
   opacity: 0.6;
-  //float:left;
-  display: inline;
-  border-radius: 30px;
+  float:left;
+  border-radius: 3px;
   cursor: pointer;
- 
+
 }
 #pager li:hover{
   opacity:0.9;
