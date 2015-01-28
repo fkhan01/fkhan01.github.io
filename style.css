@@ -170,7 +170,7 @@ height: 62px;
   /* not in the center*/
   padding:0px;
   position:relative;
-  height:50px;
+  height:20px;
   margin:auto;
   margin-top:10px;
   display: inline;
@@ -184,7 +184,7 @@ height: 62px;
   color:white;
   list-style: none;
   opacity: 0.6;
-  float:left;
+  //float:left;
   display: inline;
   border-radius: 30px;
   cursor: pointer;
