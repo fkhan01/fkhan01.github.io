@@ -119,7 +119,7 @@ height: 62px;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
-    background: black; 
+    background: black  no-repeat; 
     text-align: center;
     position: fixed;
     top: 50%;
