@@ -130,7 +130,7 @@ height: 62px;
 .slider_wrapper{
     overflow: hidden;
     position:relative;
-    height:500px;
+    height:480px;
     top:auto;
 }
 #image_slider{
@@ -170,7 +170,7 @@ height: 62px;
   /* not in the center*/
   padding:0px;
   position:relative;
-  height:5px;
+  height:50px;
   margin:auto;
  // margin-top:10px;
   display: inline;
