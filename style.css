@@ -29,7 +29,7 @@ body{
 }
 
 h1{
-	color: lightblue;
+  color: lightblue;
     font-family: 'axelregular';
     font-size:100px;
     letter-spacing: 0.325em;
@@ -48,7 +48,7 @@ color: white;
 font-family: 'modekaregular';
 font-size: 24px;
 margin: 24px;
-background: url(images/bluebutton.png) no-repeat center center;
+background: black;
 width: 151px;
 height: 62px;
 -moz-border-radius: 16px;
@@ -68,7 +68,7 @@ color: white;
 font-family: 'modekaregular';
 font-size: 24px;
 margin: 24px;
-background: url(images/bluebutton.png) no-repeat center center;
+background: black;
 width: 151px;
 height: 62px;
 -moz-border-radius: 16px;
@@ -84,7 +84,7 @@ color: white;
 font-family: 'modekaregular';
 font-size: 24px;
 margin: 24px;
-background: url(images/bluebutton.png) no-repeat center center;
+background: black;
 width: 151px;
 height: 62px;
 -moz-border-radius: 16px;
@@ -99,7 +99,7 @@ color: white;
 font-family: 'modekaregular';
 font-size: 24px;
 margin: 15px;
-background: url(images/backbutton.png) no-repeat center center;
+background: black;
 width: 151px;
 height: 62px;
 -moz-border-radius: 16px;
@@ -171,22 +171,24 @@ height: 62px;
   padding:0px;
   position:relative;
   height:50px;
-  margin:auto;
+  margin:0px auto;
   margin-top:10px;
+  display: inline;
 }
 #pager li{
-  padding: 0px;
-  margin:auto;
+  padding:5px;
+  margin:2px;
   width:20px;
   height:20px;
   border:1px solid white;
   color:white;
   list-style: none;
   opacity: 0.6;
-  float:left;
-  border-radius: 3px;
+  //float:left;
+  display: inline;
+  border-radius: 30px;
   cursor: pointer;
-
+ 
 }
 #pager li:hover{
   opacity:0.9;
