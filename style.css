@@ -170,9 +170,9 @@ height: 62px;
   /* not in the center*/
   padding:0px;
   position:relative;
-  height:50px;
+  height:100px;
   margin:auto;
-  margin-top:50px;
+  margin-top:10px;
   display: inline;
 }
 #pager li{
