@@ -145,7 +145,7 @@ height: 62px;
 }
 #image_slider li{
   position: relative;
-  //float: left;
+  float: left;
 }
 .nvgt{
   position:absolute;
