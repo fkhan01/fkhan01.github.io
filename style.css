@@ -112,7 +112,7 @@ height: 62px;
 
 /* */
 .container{
-    width:800px;
+    width:1000px;
     height:400px;
     padding:20px;
     border:1px lightblue;
@@ -130,7 +130,7 @@ height: 62px;
 .slider_wrapper{
     overflow: hidden;
     position:relative;
-    height:280px;
+    height:700px;
     top:auto;
 }
 #image_slider{
