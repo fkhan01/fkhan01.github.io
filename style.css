@@ -170,8 +170,8 @@ height: 62px;
   /* not in the center*/
   padding:0px;
   position:relative;
-  height:100px;
-  margin:auto;
+  height:50px;
+  //margin:auto;
   margin-top:10px;
   display: inline;
 }
