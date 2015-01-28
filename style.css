@@ -113,7 +113,7 @@ height: 62px;
 /* */
 .container{
     width:940px;
-    height:600px;
+    height:630px;
     padding:20px;
     border:1px lightblue;
     -webkit-box-sizing:border-box;
@@ -172,7 +172,7 @@ height: 62px;
   position:relative;
   height:50px;
   margin:auto;
-  margin-top:20px;
+  margin-top:10px;
   display: inline;
 }
 #pager li{
