@@ -141,7 +141,7 @@ height: 62px;
   float: left;
   /*Chrom default padding for ul is 40px */
   padding:0px;
-  margin:0px;
+  margin:auto;
 }
 #image_slider li{
   position: relative;
