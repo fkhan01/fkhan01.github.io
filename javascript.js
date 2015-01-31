@@ -35,7 +35,7 @@ $(document).ready(function(){
                //$("div").animate({height:'1px'});
                
    });
-
+});
 
 //1. set ul width 
 //2. image when click prev/next button
@@ -144,4 +144,3 @@ window.onload = init;
 
   
 
-});
