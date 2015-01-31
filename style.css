@@ -189,7 +189,6 @@ height: 62px;
   display: inline;
   border-radius: 30px;
   cursor: pointer;
-  list-style-position: inside;
  
 }
 #pager li:hover{
