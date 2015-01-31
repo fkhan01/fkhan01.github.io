@@ -147,7 +147,7 @@ height: 62px;
 #image_slider li{
   position: relative;
   float: left;
-  display: inline;
+  display: inline-block;
 }
 .nvgt{
   position:absolute;
