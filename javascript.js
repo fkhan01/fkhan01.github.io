@@ -45,7 +45,7 @@ $(document).ready(function(){
        $("#proheading").fadeIn(2000);
         $("#tidy").fadeIn(2000);
          $("#back").show(500);
-          $("#base").animate({height:'90%'},2000);
+          $("#base").animate({height:'80%'},2000);
                
    });
 });
