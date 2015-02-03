@@ -36,7 +36,22 @@ h1{
     text-align: center;
     /*for test*/
 }
+
+#proheading{
+   color: lightblue;
+   font-family: vijaya;
+   font-size: 55px;
+   text-align: center;
+}
 #info{
+  color: white;
+  font-family: vijaya;
+  font-size: 35px;
+  min-width:100%;
+  text-align: center;
+  font-family: 'modekaregular';
+}
+#tidy{
   color: white;
   font-family: vijaya;
   font-size: 35px;
