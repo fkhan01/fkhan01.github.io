@@ -50,7 +50,7 @@ $(document).ready(function(){
            $("footer").hide();
                
    });
-});
+
 
 //1. set ul width 
 //2. image when click prev/next button
@@ -158,4 +158,4 @@ function generatePager(imageNumber){
 window.onload = init;
 
   
-
+});
