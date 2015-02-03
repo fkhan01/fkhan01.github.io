@@ -23,7 +23,7 @@ $(document).ready(function(){
            $("#info").hide();
             $("#tidy").hide();
              $("#proheading").hide();
-              $("footer").fadeIn();
+              $("footer").show();
    });
   
   $("#portfolio").click(function(){
@@ -47,7 +47,7 @@ $(document).ready(function(){
         $("#tidy").fadeIn(2000);
          $("#back").show(500);
           $("#base").animate({height:'84%'},2000);
-           $("footer").fadeout();
+           $("footer").hide();
                
    });
 });
