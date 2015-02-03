@@ -114,7 +114,7 @@ height: 62px;
 /* */
 .container{
     width:940px;
-    height:650px;
+    height:600px;
     padding:20px;
     border:1px lightblue;
     -webkit-box-sizing:border-box;
@@ -170,8 +170,7 @@ height: 62px;
 #pager{
   /* firefox has different center method. this doesn't work for fire fox */
   /* not in the center*/
-  padding:0px;
-  padding-top:30px;
+  padding:10px;
   position:relative;
   height:10px;
   margin:auto;
