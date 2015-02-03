@@ -173,9 +173,8 @@ height: 62px;
   //padding:0px;
   position:relative;
   height:10px;
-  margin:auto;
- // margin-left:50%;
-  //display: inline;
+  // margin-left:50%;
+  display: inline;
 }
 #pager li{
   padding:7px;
