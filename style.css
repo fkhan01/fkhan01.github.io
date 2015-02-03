@@ -219,4 +219,5 @@ footer {
    bottom: 0;
    margin: auto;
    text-align:center;
+   position: fixed;
 }
