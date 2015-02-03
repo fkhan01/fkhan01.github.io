@@ -21,6 +21,8 @@ $(document).ready(function(){
          $("#base").animate({height:'3px'});
           $("#back").hide();
            $("#info").hide();
+            $("#tidy").hide();
+             $("#proheading").hide();
    });
   
   $("#portfolio").click(function(){
