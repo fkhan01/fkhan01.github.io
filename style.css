@@ -217,7 +217,6 @@ height: 62px;
 
 footer {
    bottom: 0;
-   margin: auto;
-   text-align:center;
+   width: 100%;
    position: fixed;
 }
