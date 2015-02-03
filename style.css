@@ -170,7 +170,7 @@ height: 62px;
 #pager{
   /* firefox has different center method. this doesn't work for fire fox */
   /* not in the center*/
-  padding:50px;
+  //padding:0px;
   position:relative;
   height:10px;
   margin:auto;
