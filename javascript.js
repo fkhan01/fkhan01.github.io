@@ -2,13 +2,13 @@ $(document).ready(function(){
 
 
   $("#aboutme").click(function(){
-  $("h1").fadeOut();
-   $("#portfolio").fadeOut();
-    $("#projects").fadeOut();
-     $("#aboutme").fadeOut();
-      $("#info").fadeIn(2000);
-       $("#back").show(500);
-        $("#base").animate({height:'150px'},2000);
+   $("h1").fadeOut();
+    $("#portfolio").fadeOut();
+     $("#projects").fadeOut();
+      $("#aboutme").fadeOut();
+       $("#info").fadeIn(2000);
+        $("#back").show(500);
+         $("#base").animate({height:'150px'},2000);
        
   });
 
@@ -33,6 +33,16 @@ $(document).ready(function(){
          //$(".slider_wrapper").show();
          // $("#image_slider").show();
                //$("div").animate({height:'1px'});
+
+  $("#projects").click(function(){
+   $("h1").fadeOut();
+    $("#portfolio").fadeOut();
+     $("#projects").fadeOut();
+      $("#aboutme").fadeOut();
+       $("#proheading").fadeIn(2000);
+        $("#tidy").fadeIn(2000);
+         $("#back").show(500);
+          $("#base").animate({height:'200px'},2000);
                
    });
 });
