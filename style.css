@@ -171,9 +171,9 @@ height: 62px;
   /* firefox has different center method. this doesn't work for fire fox */
   /* not in the center*/
   padding:0px;
-  padding-top: 30px;
+  padding-top:30px;
   position:relative;
-  height:50px;
+  height:10px;
   margin:auto;
   //margin-top:10px;
   display: inline;
