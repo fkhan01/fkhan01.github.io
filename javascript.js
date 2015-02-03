@@ -33,6 +33,7 @@ $(document).ready(function(){
          //$(".slider_wrapper").show();
          // $("#image_slider").show();
                //$("div").animate({height:'1px'});
+  });
 
   $("#projects").click(function(){
    $("h1").fadeOut();
