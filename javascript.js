@@ -33,7 +33,7 @@ $(document).ready(function(){
       $("#aboutme").fadeOut();
        $(".container").show(2000);
         $("#back").show(500);
-         //$(".slider_wrapper").show();
+         $(".slider_wrapper").show();
          // $("#image_slider").show();
                //$("div").animate({height:'1px'});
   });
@@ -148,13 +148,12 @@ function generatePager(imageNumber){
         slideTo(i);
       };
     }(i);
-  
+  }
   var computedStyle = document.defaultView.getComputedStyle(li, null);
   //border width 1px; offsetWidth = 22
   var liWidth = parseInt(li.offsetWidth);
   var liMargin = parseInt(computedStyle.margin.replace('px',""));
   pagerDiv.style.width = parseInt((liWidth + liMargin * 2) * imageNumber) + 'px';
- }
 }
 window.onload = init;
 
