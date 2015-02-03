@@ -72,7 +72,7 @@ function init(){
   prev = document.getElementById("prev");
   next = document.getElementById("next");
   generatePager(imageNumber);
-  //.onclike = slide(-1) will be fired when onload;
+  .onclike = slide(-1) will be fired when onload;
   /*
   prev.onclick = function(){slide(-1);};
   next.onclick = function(){slide(1);};*/
