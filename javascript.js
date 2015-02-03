@@ -72,7 +72,7 @@ function init(){
   prev = document.getElementById("prev");
   next = document.getElementById("next");
   generatePager(imageNumber);
-  .onclike = slide(-1) will be fired when onload;
+  //.onclike = slide(-1) will be fired when onload;
   /*
   prev.onclick = function(){slide(-1);};
   next.onclick = function(){slide(1);};*/
@@ -148,12 +148,13 @@ function generatePager(imageNumber){
         slideTo(i);
       };
     }(i);
-  }
+  
   var computedStyle = document.defaultView.getComputedStyle(li, null);
   //border width 1px; offsetWidth = 22
   var liWidth = parseInt(li.offsetWidth);
   var liMargin = parseInt(computedStyle.margin.replace('px',""));
   pagerDiv.style.width = parseInt((liWidth + liMargin * 2) * imageNumber) + 'px';
+ }
 }
 window.onload = init;
 
