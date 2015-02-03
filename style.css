@@ -216,7 +216,10 @@ height: 62px;
 }
 
 footer {
-   bottom: 0;
-   width: 100%;
-   position: fixed;
+   width:100%;
+  height:80px;
+  position:absolute;
+  text-align:center;  
+  bottom:0;
+  left:0;
 }
