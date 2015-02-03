@@ -214,3 +214,9 @@ height: 62px;
 #pager li:hover{
   opacity:0.9;
 }
+
+.footer {
+
+    margin: auto;
+    text-align:center;
+}
