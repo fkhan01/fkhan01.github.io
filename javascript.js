@@ -31,7 +31,7 @@ $(document).ready(function(){
     $("#portfolio").fadeOut();
      $("#projects").fadeOut();
       $("#aboutme").fadeOut();
-       $("#image_slider").show();
+       $(".slider_wrapper").show();
         $("#back").show(500);
          //$(".slider_wrapper").show();
          // $("#image_slider").show();
