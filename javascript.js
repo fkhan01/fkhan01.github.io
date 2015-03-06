@@ -17,7 +17,7 @@ $(document).ready(function (){
      $("#portfolio").fadeIn();
       $("#projects").fadeIn();
        $("#aboutme").fadeIn();
-        $(".container").hide();
+        $("#container").hide();
          $("#base").animate({height:'3px'});
           $("#back").hide();
            $("#info").hide();
