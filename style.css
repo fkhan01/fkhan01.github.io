@@ -169,7 +169,7 @@ height: 62px;
   margin:auto;
 
 }
-#image_slider li{
+.slider_wrapper ul li{
   position: relative;
   float: left;
   display: inline;
