@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function init(){
 
 
   $("#aboutme").click(function(){
@@ -31,7 +31,7 @@ $(document).ready(function(){
     $("#portfolio").fadeOut();
      $("#projects").fadeOut();
       $("#aboutme").fadeOut();
-       $(".container").load(2000);
+       $(".container").show(2000);
         $("#back").show(500);
          //$(".slider_wrapper").show();
          // $("#image_slider").show();
