@@ -156,8 +156,8 @@ height: 62px;
     height:500px;
     top:auto;
     text-align:center; 
+    display:inline-table;
    
-    display:inline;
 }
 
 #image_slider{
