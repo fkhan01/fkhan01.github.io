@@ -158,7 +158,7 @@ height: 62px;
     text-align:center;    
 }
 
-.image_slider{
+#image_slider{
   position: relative;
   height: auto;
   list-style: none;
@@ -169,7 +169,7 @@ height: 62px;
   margin:auto;
 
 }
-.image_slider li{
+#image_slider li{
   position: relative;
   float: left;
   display: inline;
