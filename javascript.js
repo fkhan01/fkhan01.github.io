@@ -65,7 +65,7 @@ $(document).ready(function ($){
     $('#slider ul li:last-child').prependTo('#slider ul');
 
     function moveLeft() {
-        $('#slider ul').animate({
+        $('#slider ul').show({
             left: + slideWidth
         }, 200, function () {
             $('#slider ul li:last-child').prependTo('#slider ul');
