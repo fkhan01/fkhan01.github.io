@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function init(){
 
 
   $("#aboutme").click(function(){
@@ -156,3 +156,5 @@ function generatePager(imageNumber){
   pagerDiv.style.width = parseInt((liWidth + liMargin * 2) * imageNumber) + 'px';
 }
 window.onload = init;
+
+});
