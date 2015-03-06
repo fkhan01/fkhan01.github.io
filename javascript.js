@@ -1,6 +1,6 @@
-$(document).ready(function init(){
+$(document).ready(function(){
 
-
+window.onload = init;
   $("#aboutme").click(function(){
    $("h1").fadeOut();
     $("#portfolio").fadeOut();
