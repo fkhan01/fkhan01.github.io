@@ -1,6 +1,6 @@
-$(document).ready(function init(){
+$(document).ready(function (){
 
-
+window.onload = init;
   $("#aboutme").click(function(){
    $("h1").fadeOut();
     $("#portfolio").fadeOut();
@@ -155,5 +155,5 @@ function generatePager(imageNumber){
   var liMargin = parseInt(computedStyle.margin.replace('px',""));
   pagerDiv.style.width = parseInt((liWidth + liMargin * 2) * imageNumber) + 'px';
 }
-window.onload = init;
+
 });
