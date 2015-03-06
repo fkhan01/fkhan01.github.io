@@ -1,4 +1,4 @@
-$(document).ready(function (){
+$(document).ready(function ($){
 
 
   $("#aboutme").click(function(){
@@ -91,6 +91,4 @@ $(document).ready(function (){
     });
 
 });   
-window.onload = init;
 
-});
