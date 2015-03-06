@@ -155,7 +155,11 @@ height: 62px;
     position:relative;
     height:500px;
     top:auto;
+    text-align:center; 
+    display:inline-table;
+    display:inline;
 }
+
 #image_slider{
   position: relative;
   height: auto;
