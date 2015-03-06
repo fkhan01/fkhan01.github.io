@@ -150,7 +150,7 @@ height: 62px;
     transform: translate(-50%, -50%);
     
 }
-.slider_wrapper{
+#slider_wrapper{
     overflow: hidden;
     position:relative;
     height:500px;
@@ -158,7 +158,7 @@ height: 62px;
     text-align:center;    
 }
 
-.slider_wrapper ul {
+#slider_wrapper ul {
   position: relative;
   height: auto;
   list-style: none;
@@ -169,7 +169,7 @@ height: 62px;
   margin:auto;
 
 }
-.slider_wrapper ul li{
+#slider_wrapper ul li{
   position: relative;
   float: left;
   display: inline;
