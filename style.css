@@ -158,7 +158,7 @@ height: 62px;
     text-align:center;    
 }
 
-#image_slider{
+.slider_wrapper ul {
   position: relative;
   height: auto;
   list-style: none;
