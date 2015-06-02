@@ -194,7 +194,8 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
-    font-family: 'Playfair Display SC', serif;
+    /*font-family: 'Playfair Display SC', serif;*/
+    font-family: 'Emblema One', cursive;
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
