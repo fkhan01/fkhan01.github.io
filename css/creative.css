@@ -477,3 +477,9 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+/* Making email button white */
+i.fa.fa-envelope-o.fa-3x.wow.bounceIn{
+    color: #ffffff;
+
+}
