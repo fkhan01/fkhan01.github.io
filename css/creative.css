@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #9578ef;
+    background-color: #5D478B;
 }
 
 .bg-dark {
@@ -390,7 +390,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
-    background-color: #8ff2f1;
+    background-color: #5D478B;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -404,7 +404,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
     color: #fff;
-    background-color: #1ce5e2;
+    background-color: ##380474;
 }
 
 .btn-primary:active,
