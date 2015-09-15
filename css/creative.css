@@ -274,9 +274,8 @@ header .header-content .header-content-inner p {
 .portfolio-box:hover {
     transform:scale(1.5,1.5);
 }
-#portfolio div img{
-    height: 100%;
-    width: 100%;
+#portfolio div img:hover{
+  
     overflow: visible;
 }
 
