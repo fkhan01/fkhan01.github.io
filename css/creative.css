@@ -271,7 +271,7 @@ header .header-content .header-content-inner p {
 
 }
 .img-responsive{
-    margin: 0 auto;
+    transform: scale(1.5,1.5)
     overflow: hidden;
 }
 .portfolio-box:hover{
