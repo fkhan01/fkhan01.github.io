@@ -263,17 +263,14 @@ header .header-content .header-content-inner p {
 
 
 .portfolio-box {
-    display: inline;
+    display: block;
     position: relative;
     margin: 0 auto;
     max-width: 650px;
 
 
 }
-.img-responsive{
-    transform: scale(1.5,1.5)
-    overflow: hidden;
-}
+
 .portfolio-box:hover{
     transform: scale(1.5,1.5);
 
@@ -289,9 +286,9 @@ header .header-content .header-content-inner p {
     color: #fff;
     opacity: 0;
     background: rgba(240,95,64,.9);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .35s ease;
+    -moz-transition: all .35s ease;
+    transition: all .35s ease;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
