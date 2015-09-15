@@ -474,6 +474,10 @@ img::-moz-selection {
     background: 0 0;
 }
 
+img reponsive{
+    transform: scale(1,1);
+}
+
 body {
     webkit-tap-highlight-color: #222;
 
