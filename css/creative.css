@@ -261,6 +261,9 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
+.img-responsive {
+    overflow: hidden;
+}
 .portfolio-box {
     display: block;
     position: relative;
@@ -271,7 +274,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box:hover{
     transform: scale(2,2);
-    overflow: hidden;
+
 }
 
 .portfolio-box .portfolio-box-caption {
