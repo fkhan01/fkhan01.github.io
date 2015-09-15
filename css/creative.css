@@ -272,7 +272,7 @@ header .header-content .header-content-inner p {
 
 }
 .portfolio-box:hover {
-    tranform:scale(1.5,1.5);
+    transform:scale(1.5,1.5);
 }
 .portfolio-box img{
     height: 100%;
