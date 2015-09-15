@@ -474,7 +474,7 @@ img::-moz-selection {
     background: 0 0;
 }
 
-img-reponsive{
+img-reponsive:hover{
     transform: scale(1,1);
 }
 
