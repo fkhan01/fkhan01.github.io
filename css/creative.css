@@ -261,9 +261,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
-.col-lg-4 col-sm-6 {
-    overflow: visible;
-}
+
 .portfolio-box {
     display: block;
     position: relative;
@@ -273,7 +271,7 @@ header .header-content .header-content-inner p {
 
 }
 .portfolio-box:hover{
-    transform: scale(2,2);
+    transform: scale(1,1);
 
 }
 
