@@ -270,6 +270,9 @@ header .header-content .header-content-inner p {
 
 
 }
+.img-responsive{
+    margin: 0 auto;
+}
 .portfolio-box:hover{
     transform: scale(1.5,1.5);
 
