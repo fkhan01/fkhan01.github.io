@@ -271,7 +271,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box:hover{
     transform: scale(2,2);
-    overflow: visible;
+    overflow: hidden;
 }
 
 .portfolio-box .portfolio-box-caption {
