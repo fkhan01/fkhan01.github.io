@@ -262,7 +262,7 @@ header .header-content .header-content-inner p {
 }
 
 .img-responsive {
-    overflow: hidden;
+    overflow: visible;
 }
 .portfolio-box {
     display: block;
