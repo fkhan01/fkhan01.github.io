@@ -266,7 +266,7 @@ header .header-content .header-content-inner p {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
-    overflow: hidden;
+    overflow: visible;
 
 }
 .portfolio-box:hover{
