@@ -272,6 +272,10 @@ header .header-content .header-content-inner p {
 
 }
 
+.portfolio-box img{
+    width:100%;
+    heigth:100%;
+}
 
 .portfolio-box .portfolio-box-caption {
     display: block;
