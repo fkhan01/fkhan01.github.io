@@ -267,15 +267,12 @@ header .header-content .header-content-inner p {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
-    overflow: hidden;
-
+   /* overflow: hidden;*/
+    object-fit: cover;
 
 }
 
-.portfolio-box img{
-    width:100%;
-    heigth:100%;
-}
+
 
 .portfolio-box .portfolio-box-caption {
     display: block;
